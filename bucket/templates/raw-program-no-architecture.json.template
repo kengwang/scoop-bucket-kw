@@ -1,0 +1,20 @@
+{
+    "version": "",
+    "license": "",
+    "description": "",
+    "homepage": "",
+    "checkver": "github",
+    "url": "",
+    "hash": "",
+    "autoupdate": {
+        "url": ""
+    },
+    "persist": "",
+    "bin": "app",
+    "shortcuts": [
+        [
+            "app",
+            "App"
+        ]
+    ]
+}

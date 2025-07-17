@@ -1,0 +1,20 @@
+{
+    "version": "",
+    "license": "",
+    "description": "",
+    "homepage": "",
+    "suggest": {
+        "JDK": [
+            "extras/oraclejdk",
+            "openjdk"
+        ]
+    },
+    "checkver": "github",
+    "url": "",
+    "hash": "",
+    "autoupdate": {
+        "url": ""
+    },
+    "persist": "",
+    "bin": "app.jar"
+}

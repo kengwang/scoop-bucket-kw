@@ -1,0 +1,23 @@
+{
+    "version": "3.7.17",
+    "license": "Unlicense",
+    "description": "必剪 B站出品，就很不同",
+    "homepage": "https://bcut.bilibili.cn/",
+    "checkver": {
+        "url": "https://member.bilibili.com/x/bcut/pc/upgrade/web?version=0",
+        "regex": "\"version\":\"(?<version>.*?)\",.*?\"package_download_url\":\"https://boss.hdslb.com/bcut_pc_pkg/static/(?<folercode>.*?)/"
+    },
+    "autoupdate": {
+        "url": "https://boss.hdslb.com/bcut_pc_pkg/static/$matchFolercode/Bcut-Win-$version.exe"
+    },
+    "innosetup": true,
+    "url": "https://boss.hdslb.com/bcut_pc_pkg/static/0b8acb82a8f2ccd1a818c6534fcdaf5c/Bcut-Win-3.7.17.exe",
+    "hash": "85ce401d4d9051192b5f62333db09c18c5c230940ca9531f0ad19cc2c3bd19eb",
+    "bin": "bcut.exe",
+    "shortcuts": [
+        [
+            "bcut.exe",
+            "必剪"
+        ]
+    ]
+}
