@@ -1,5 +1,5 @@
 {
-    "version": "1.2.3",
+    "version": "1.2.4",
     "license": "MIT",
     "description": "QQNT 插件加载器：LiteLoaderQQNT —— 轻量 · 简洁 · 开源 · 福瑞",
     "homepage": "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT",
@@ -7,21 +7,21 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.2.3/LiteLoaderQQNT.zip",
-                "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/DllHijack_1.1.2/dbghelp_x64.dll"
+                "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.2.4/LiteLoaderQQNT.zip",
+                "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/DllHijack_1.1.2/dbghelp_x86.dll"
             ],
             "hash": [
-                "c7223a709b9514c1dbfd11e891af7d1a2076e53f888d431490975f170f0f8819",
-                "4bb8cd08d7e96bd085fa2afa46d7b36e3f312a6c4d633363411ef763449d700f"
+                "df56986e955ad70f99e1170b0e4b7fbc0ab2213aed1f249ce2ae9f5be1fc7555",
+                "dfd0fbf2b0a985eccfead1278227f62dde3f2c4eaa2c34277cd50b6d2f1f767a"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.2.3/LiteLoaderQQNT.zip",
+                "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.2.4/LiteLoaderQQNT.zip",
                 "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/DllHijack_1.1.2/dbghelp_x86.dll"
             ],
             "hash": [
-                "c7223a709b9514c1dbfd11e891af7d1a2076e53f888d431490975f170f0f8819",
+                "df56986e955ad70f99e1170b0e4b7fbc0ab2213aed1f249ce2ae9f5be1fc7555",
                 "dfd0fbf2b0a985eccfead1278227f62dde3f2c4eaa2c34277cd50b6d2f1f767a"
             ]
         }
@@ -31,13 +31,13 @@
             "64bit": {
                 "url": [
                     "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/$version/LiteLoaderQQNT.zip",
-                    "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/latest/dbghelp_x64.dll"
+                    "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/DllHijack_1.1.2/dbghelp_x86.dll"
                 ]
             },
             "32bit": {
                 "url": [
                     "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/$version/LiteLoaderQQNT.zip",
-                    "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/latest/dbghelp_x86.dll"
+                    "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/DllHijack_1.1.2/dbghelp_x86.dll"
                 ]
             }
         }
