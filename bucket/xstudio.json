@@ -1,0 +1,26 @@
+{
+    "version": "41",
+    "license": "Unlicense",
+    "description": "为热爱音乐的你, 带来时刻在线的AI歌手伙伴",
+    "homepage": "https://xstudio.music.163.com/",
+    "checkver": {
+        "url": "https://xstudio.music.163.com/xstudio-public/wangyixstudioh5/wangyiXstudioUIConfigV2.json",
+        "jp": "$.Download.DownloadWin",
+        "regex": "https://xcloudsing.xiaoice.com/xstudio-public/production/(\\d+?)/"
+    },
+    "url": "https://xcloudsing.xiaoice.com/xstudio-public/production/41/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%C2%B7XStudio_Windows_x86_64.zip",
+    "hash": "5c812e8e3ef2a579a230f641ed4124b4924a9f92ac471178687bf777138147f7",
+    "autoupdate": {
+        "url": "https://xcloudsing.xiaoice.com/xstudio-public/production/$version/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%C2%B7XStudio_Windows_x86_64.zip"
+    },
+    "pre_install":[
+        "Expand-InnoArchive -Path \"$dir/网易云音乐·XStudio_Windows_x86_64.exe\"",
+        "Remove-Item \"$dir/网易云音乐·XStudio_Windows_x86_64.exe\" -Force"
+    ],
+    "shortcuts": [
+        [
+            "NetEase Cloud Music XStudio.exe",
+            "网易云音乐 XStudio"
+        ]
+    ]
+}
