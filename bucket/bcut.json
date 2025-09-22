@@ -1,5 +1,5 @@
 {
-    "version": "3.11.2",
+    "version": "3.11.3",
     "license": "Unlicense",
     "description": "必剪 B站出品，就很不同",
     "homepage": "https://bcut.bilibili.cn/",
@@ -11,8 +11,8 @@
         "url": "https://boss.hdslb.com/bcut_pc_pkg/static/$matchFolercode/$matchFilename"
     },
     "innosetup": true,
-    "url": "https://boss.hdslb.com/bcut_pc_pkg/static/e06c712de434de948a190adb3fefdf4d/Bcut-Win-3.11.2-20694709.exe",
-    "hash": "6eaaeea449aa57ae93b0119bee3b5f5c09f1991f6e2b1a034b43ba3cda084a6d",
+    "url": "https://boss.hdslb.com/bcut_pc_pkg/static/21ad666e4fe75aad2a10fabe2fa52510/Bcut-Win-3.11.3-20822862.exe",
+    "hash": "b490e724eb8aa9148cebc29cfc5afe1fc794d1b816edfb694f1bdb8cdd69c2e3",
     "bin": "bcut.exe",
     "shortcuts": [
         [
