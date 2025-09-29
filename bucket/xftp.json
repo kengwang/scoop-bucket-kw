@@ -7,7 +7,7 @@
     "description": "Effortless File Transfers Over A Network",
     "homepage": "https://www.xshell.com/free-for-home-school/",
     "depends": "isx",
-    "url": "https://cdn.netsarang.net/10aefc08/Xftp-8.0.0084p.exe#/installer.exe",
+    "url": "https://cdn.netsarang.net/b9dd7d10/Xftp-8.0.0084p.exe#/installer.exe",
     "hash": "c2a991edc3b59557c17da0ac1e20542e635430bb4dc33464abeed68881f766c1",
     "checkver": {
         "script": [

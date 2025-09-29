@@ -1,5 +1,5 @@
 {
-    "version": "3.6.8-CGP",
+    "version": "3.6.9-CGP",
     "license": "GPL-3.0-only",
     "description": "AdobeGenp Adobe Adobe CC 2019/2020(2021/2022/2023/2024/2025TEST) GenP Universal Patch",
     "homepage": "https://gen.paramore.su",
@@ -7,8 +7,8 @@
         "url": "https://gen.paramore.su",
         "regex": "/GenP\\.v(.*?).zip\""
     },
-    "url": "https://gen.paramore.su/GenP.v3.6.8-CGP.zip",
-    "hash": "99fa3f843f8c4c7e745d3bd126968c4ee1fccd3a94eb37cf1e5c1e6e99a2fc1b",
+    "url": "https://gen.paramore.su/GenP.v3.6.9-CGP.zip",
+    "hash": "431b28507a54b39ce70a0c40e4d52c82549fcc781e679adeb7b0f37faafb8d22",
     "autoupdate": {
         "url": "https://gen.paramore.su/GenP.v$version.zip"
     },
